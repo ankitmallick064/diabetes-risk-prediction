@@ -35,8 +35,8 @@ class sav:
         return file_path
 
 
-loaded_model = sav.load('diabetes_model.sav','rb')
-pickle.load(open('diabetes_model.sav','rb'))
+loaded_model = sav.load('diabetes_model.sav')
+pickle.load(open('diabetes_model.sav'))
 
 # 1. Custom CSS for Visual Styling (Colors, Fonts, Backgrounds)
 # This acts like your palette, setting the aesthetic tone of the page.
