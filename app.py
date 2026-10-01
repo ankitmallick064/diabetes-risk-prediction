@@ -35,7 +35,7 @@ class sav:
         return file_path
 
 
-loaded_model = sav.load('diabetes_model.sav')
+loaded_model = sav.load('diabetes_model.sav','rb')
 pickle.load(open('diabetes_model.sav','rb'))
 
 # 1. Custom CSS for Visual Styling (Colors, Fonts, Backgrounds)
